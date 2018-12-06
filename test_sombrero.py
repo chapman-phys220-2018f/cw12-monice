@@ -3,7 +3,7 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
-import numba as nb
+
 
 ###
 # Name: Abby Wheaton, Monica Hiemer, and Royal Cuevas
@@ -14,7 +14,7 @@ import numba as nb
 ###
 
 import numpy as np
-import numba as nb
+
 import matplotlib.pyplot as plt
 import sombrero as smb
 

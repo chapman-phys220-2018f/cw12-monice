@@ -38,12 +38,12 @@ def sombrero(x0, y0, t, F):
         y1 = dt*dydt(x[i-1], y[i-1], t[i-1], F)
         y2 = dt*(dydt(x[i-1], y[i-1], t[i-1], F)+y1/2)
         y3 = dt*(dydt(x[i-1], y[i-1], t[i-1], F)+y2/2)
-        y4 = dt*(dydt(x[i-1], y[i-1], t[i-1], F)+y3/3)
+        y4 = dt*(dydt(x[i-1], y[i-1], t[i-1], F)+y3)
         y[i] = y[i-1]+(y1+2*y2+2*y3+y4)/6
         
-    #plt.plot(t,x)
-    #plt.plot(t,y)
-    plt.plot (x,y)
+
+    
+    plt.plot(x,y)
         
     return x
         
